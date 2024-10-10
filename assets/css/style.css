@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     color: #e6e8d9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -10,7 +11,7 @@ a {
     z-index: 1;
 }
 
-nav{
+nav {
     display: flex;
     gap: 0.5rem;
     position: relative;
@@ -19,13 +20,11 @@ nav{
 
 a:hover {
     font-size: x-large;
-    color: black;
+    color: white;
 }
 
 .btn {
-    padding: 2rem 2rem;
-    font-family: serif;
-    font-weight: bold;
+    padding: 2rem 2rem;    font-weight: bold;
     font-size: larger;
 
 }
@@ -34,7 +33,7 @@ a:hover {
 .logo {
     width: 10rem;
     align-items: center;
-    
+
 }
 
 
@@ -44,8 +43,8 @@ a:hover {
     justify-content: space-between;
     background-color: #38383d;
     padding: 1rem;
-    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(109, 110, 103));
-    
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(109, 110, 103));
+
 }
 
 .hero {
@@ -54,70 +53,43 @@ a:hover {
     align-items: center;
     flex-direction: column;
     background-color: #38383d;
-    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(109, 110, 103));
+    background-image: radial-gradient(ellipse, rgb(109, 110, 103), rgba(255, 0, 0, 0));
 
 }
 
 .btn-about-me {
     color: #e6e8d9;
     padding: 1rem 1rem;
-    font-family: serif;
     font-weight: bold;
-    font-size: larger;
-    border:  2px outset;
+    border: 2px outset;
     border-radius: 8px;
     padding: 1rem;
 }
 
-.aboutme {
-    height: 90dvh;
-    background-color: #38383d;
+.footer {
+    background-color: #27272b;
+    text-align: center;
+    line-height: 1.6;
+
+}
+
+.row-footer {
     display: flex;
-    position: relative;
-    text-align: right;
-    background-image: linear-gradient(to top, rgb(109, 110, 103) ,rgba(255, 0, 0, 0));
+    justify-content: space-between;
+    align-items: center;
 
-    h1 {
-        font-size: 4rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-    h2 {
-        font-size: 2rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    p {
-        padding-top: 1rem;
-        font-size: larger;
-    }
-    .column img {
-        max-width: 100%;
-       margin: auto;
-        
-    }
-    
-    .column {
-        float: left;
-        width: 50%;
-        padding: 5px;
-       
-    }
-    
-    .row::after {
-        content: "";
-        display: table;
-        clear: both;
-    
-    }
-    
-    @media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-        
-    }
 }
 
-.education {
-    
+.column-footer {
+    flex: 50%; 
+    padding: 40px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
 }
