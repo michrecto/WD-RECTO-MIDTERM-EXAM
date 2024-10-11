@@ -6,19 +6,78 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.works {
-    background-color: #27272b;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #38383d;
+    padding: 1rem;
     background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(109, 110, 103));
 
-    
+
+    .btn {
+        padding: 2rem 2rem;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    nav {
+        display: flex;
+        gap : 0.5rem;
+        position: relative;
+
+        a {
+            text-decoration: none;
+            z-index: 1;
+        }
+
+        a:hover {
+            font-size: x-large;
+            color: white;
+        }
+
+    }
 }
+
+.logo {
+    width: 10rem;
+    align-items: center;
+}
+
+.works {
+    background-color: #27272b;
+    background-image: radial-gradient(ellipse, rgb(72, 73, 67), rgba(255, 0, 0, 0));
+
+    h1 {
+        text-align: center;
+        font-size: 5rem;
+        padding-top: 30px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 100px;
+    }
+
+}
+
+.title {
+    padding: 33px 0;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 
 .footer {
     background-color: #27272b;
     text-align: end;
     line-height: 1.6;
     font-family: serif;
-
 }
 
 .row-footer {

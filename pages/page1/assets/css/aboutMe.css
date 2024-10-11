@@ -7,16 +7,42 @@
 }
 
 .header {
-    background-color: #27272b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #38383d;
+    padding: 1rem;
     background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(109, 110, 103));
-    padding: 30px;
-    font-size: 1.5rem;
-    
-    a {
-        text-decoration: none;
+
+
+    .btn {
+        padding: 2rem 2rem;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    nav {
+        display: flex;
+        gap : 0.5rem;
+        position: relative;
+
+        a {
+            text-decoration: none;
+            z-index: 1;
+        }
+
+        a:hover {
+            font-size: x-large;
+            color: white;
+        }
+
     }
 }
 
+.logo {
+    width: 10rem;
+    align-items: center;
+}
 
 .top {
     background-color: #27272b;
@@ -58,7 +84,8 @@
 
 
 .middle {
-    background-color: #27272b;    background-image: linear-gradient(to top, rgb(72, 73, 67), rgba(255, 0, 0, 0));
+    background-color: #27272b;
+    background-image: linear-gradient(to top, rgb(72, 73, 67), rgba(255, 0, 0, 0));
 
 
     h2 {
