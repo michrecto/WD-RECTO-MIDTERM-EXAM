@@ -68,28 +68,32 @@ a:hover {
 
 .footer {
     background-color: #27272b;
-    text-align: center;
+    text-align: end;
     line-height: 1.6;
+    font-family: serif;
 
 }
 
 .row-footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
 }
 
 .column-footer {
-    flex: 50%; 
+    flex: 50%;
     padding: 40px;
+
 }
+
 
 .links {
     display: flex;
     justify-content: center;
+
 }
 
 .links a {
     margin: 0 30px;
+    text-decoration: none;
+
 }
