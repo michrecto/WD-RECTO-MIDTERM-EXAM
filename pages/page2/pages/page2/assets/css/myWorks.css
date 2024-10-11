@@ -62,15 +62,14 @@
 
 }
 
-.title {
-    padding: 33px 0;
-}
-
 .row {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 50px;
 }
+
+
 
 
 .footer {
