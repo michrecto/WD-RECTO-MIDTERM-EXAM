@@ -32,12 +32,13 @@
         }
 
         a:hover {
-            font-size: x-large;
+            font-size: smaller;
             color: white;
         }
 
     }
 }
+
 
 .logo {
     width: 10rem;
@@ -121,7 +122,13 @@
 
 .column-mid {
     padding: 20px 0;
-    margin: 0 15rem;
+    margin: 0 20rem;
+}
+
+.icons {
+    float: left;
+    padding: 5%;
+    align-items: center;
 }
 
 .footer {

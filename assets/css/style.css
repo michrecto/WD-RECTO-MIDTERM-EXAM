@@ -6,36 +6,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a {
-    text-decoration: none;
-    z-index: 1;
-}
-
-nav {
-    display: flex;
-    gap: 0.5rem;
-    position: relative;
-
-}
-
-a:hover {
-    font-size: x-large;
-    color: white;
-}
-
-.btn {
-    padding: 2rem 2rem;    font-weight: bold;
-    font-size: larger;
-
-}
-
-
-.logo {
-    width: 10rem;
-    align-items: center;
-}
-
-
 .header {
     display: flex;
     align-items: center;
@@ -44,7 +14,35 @@ a:hover {
     padding: 1rem;
     background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(109, 110, 103));
 
+
+    .btn {
+        padding: 2rem 2rem;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    nav {
+        display: flex;
+        gap : 0.5rem;
+        position: relative;
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-size: x-large;
+            color: white;
+        }
+
+    }
 }
+
+.logo {
+    width: 10rem;
+    align-items: center;
+}
+
 
 .hero {
     height: 90dvh;
@@ -63,7 +61,11 @@ a:hover {
     border: 2px outset;
     border-radius: 8px;
     padding: 1rem;
+    text-decoration: none;
+
 }
+
+
 
 .footer {
     background-color: #27272b;
